@@ -1,0 +1,81 @@
+/* Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+/* Container */
+.app-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background: #2f3640;
+  color: white;
+}
+
+tr {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+tr:hover {
+  background: #f1f2f6;
+}
+
+/* Section */
+.section {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+}
+
+/* Button */
+button {
+  padding: 10px 15px;
+  background: #273c75;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #192a56;
+}
+
+/* Analysis */
+.analysis p {
+  margin: 5px 0;
+}
+
+/* Disclaimer */
+.disclaimer {
+  color: red;
+  font-size: 12px;
+  margin-top: 10px;
+}
